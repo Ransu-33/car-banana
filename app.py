@@ -4,9 +4,10 @@ import plotly.express as px
 
 
 data = pd.read_csv('vehicles_us.csv',
-                   dtype={'price': 'float64'},
+                   dtype={'price': 'float64',
+                          'days_listed': 'float64'},
                    engine='python',
-                   na_values=['N/A', 'Nhttps://car-banana.onrender.com/A', '']
+                   na_values=['N/A', 'N/A', '']
                    )
 
 # Add manufacturer column
