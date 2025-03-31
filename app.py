@@ -3,7 +3,11 @@ import streamlit as st
 import plotly.express as px
 
 
-data = pd.read_csv('vehicles_us.csv')
+data = pd.read_csv('vehicles_us.csv',
+                   dtype={'price': 'float64'},
+                   engine='python',
+                   na_values=['N/A', 'Nhttps://car-banana.onrender.com/A', '']
+                   )
 
 # Add manufacturer column
 data['manufacturer'] = data['model'].apply(lambda x: x.split()[0])
