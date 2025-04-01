@@ -1,4 +1,6 @@
 Software Development Tools: Car Sales Advertisement Project README
+Github repository: https://github.com/Ransu-33/car-banana
+Render App URL: https://car-banana.onrender.com
 
 In this project, we take a look at a dataset of car sales advertisements. We're interested in factors such as the distribution of price based on the vehicles brand, and when people may start thinking about selling their car by looking at the odometer readings of the vehicles. We are also going to incorporate this data into an interactive web application so that users can make their own comparisons and conclusions.
 
